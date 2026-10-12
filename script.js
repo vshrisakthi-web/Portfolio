@@ -12,7 +12,7 @@ document.getElementById('themeToggle').addEventListener('click', () => {
 });
 
 // Typing line in the hero
-const phrases = ['Spring Boot REST APIs', 'A Learning Management System', 'AI-assisted MVPs'];
+const phrases = ['RecallAI, a personal AI memory layer', 'Aistetic, a WhatsApp listing automation backend', 'Spring Boot and FastAPI services'];
 const el = document.getElementById('typed');
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (reduce) { el.textContent = phrases[0]; }

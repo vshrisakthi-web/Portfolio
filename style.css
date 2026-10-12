@@ -91,3 +91,6 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;padding
   html{scroll-behavior:auto}
   .caret{animation:none}
 }
+
+.project ul{margin:10px 0 0;padding-left:1.1rem;font-size:.98rem}
+.project ul li{margin-bottom:4px}
